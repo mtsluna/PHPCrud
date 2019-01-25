@@ -5,13 +5,13 @@ Simple CRUD made in PHP. This is a consumable API REST that follow the restful p
 
 GET:
 
-Todos los elementos:   
+List all:   
 
 http://localhost:8080/api/people/
 
 http://localhost:8080/api/provinces/12
 
-Un elemento:        
+Only one by id:        
 
 http://localhost:8080/api/people/
 
@@ -21,7 +21,7 @@ POST:
 
 http://localhost:8080/api/people/
 
-Body ejemplo:
+Example body:
 
  {
  
@@ -42,7 +42,7 @@ Body ejemplo:
 
 http://localhost:8080/api/provinces/
 
-Body ejemplo:
+Example body:
 
 {
 
@@ -56,8 +56,7 @@ http://localhost:8080/api/people/48
 
 http://localhost:8080/api/provinces/25
 
-Los bodies deben estar igual formados que para el método POST 
-
+The body are the same that in the method POST.
 
 DELETE:
 
